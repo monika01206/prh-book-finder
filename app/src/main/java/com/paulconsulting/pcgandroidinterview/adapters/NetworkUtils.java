@@ -31,7 +31,7 @@ public class NetworkUtils {
     private static final String LOG_TAG = NetworkUtils.class.getSimpleName();
 
     // Base URL for GET authors request in PRH API
-    private static final String AUTHORS_BASE_URL = "https://reststop.randomhouse.com/resources/authors?";
+    private static final String AUTHORS_BASE_URL = "https://www.googleapis.com/books/v1/volumes?q={search%20terms}";
 
     /// KEYS
 
